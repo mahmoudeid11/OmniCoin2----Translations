@@ -1,4 +1,9 @@
 # OmniCoin2----Translations
+
+To add a new language, make a copy of the English file (en.json).
+
+After translating the file, create a new branch and start a pull request.
+
 Do not translate the constants in curly brackets!<br />
 ```json
 {
