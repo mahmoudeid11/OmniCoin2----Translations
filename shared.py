@@ -9,7 +9,7 @@ locales = ['en', 'es', 'fr', 'it', 'ru']
 
 def save(obj, path):
     with open(path, 'w') as out:
-        out.write(json.dumps(obj, indent=2))
+        out.write(json.dumps(obj, indent=4))
 
 
 def read_obj(path):
